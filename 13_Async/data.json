@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "role": "editor",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Evan Wright",
+      "email": "evan@example.com",
+      "role": "moderator",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Fiona Green",
+      "email": "fiona@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "name": "George King",
+      "email": "george@example.com",
+      "role": "user",
+      "isActive": false
+    },
+    {
+      "id": 8,
+      "name": "Hannah Lee",
+      "email": "hannah@example.com",
+      "role": "admin",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "Ian Scott",
+      "email": "ian@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 10,
+      "name": "Julia Roberts",
+      "email": "julia@example.com",
+      "role": "editor",
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "name": "Kevin White",
+      "email": "kevin@example.com",
+      "role": "user",
+      "isActive": false
+    },
+    {
+      "id": 12,
+      "name": "Laura Croft",
+      "email": "laura@example.com",
+      "role": "moderator",
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "name": "Mike Ross",
+      "email": "mike@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "name": "Nina Simone",
+      "email": "nina@example.com",
+      "role": "user",
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "name": "Oscar Wilde",
+      "email": "oscar@example.com",
+      "role": "admin",
+      "isActive": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Understanding Async/Await",
+      "body": "Async/await makes asynchronous code look and behave a little more like synchronous code.",
+      "likes": 25
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Why I love JavaScript",
+      "body": "JavaScript is versatile and runs everywhere. Here is why I think it is the best language.",
+      "likes": 10
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Callback Hell Explained",
+      "body": "Avoid deep nesting of callbacks by using Promises or Async/Await patterns.",
+      "likes": 42
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "title": "React vs Vue",
+      "body": "A deep dive into the differences between these two popular frontend frameworks.",
+      "likes": 15
+    },
+    {
+      "id": 5,
+      "userId": 4,
+      "title": "CSS Grid Layouts",
+      "body": "Learn how to create complex layouts easily with CSS Grid.",
+      "likes": 8
+    },
+    {
+      "id": 6,
+      "userId": 5,
+      "title": "Node.js Performance Tips",
+      "body": "Optimizing your Node.js application for better performance and scalability.",
+      "likes": 30
+    },
+    {
+      "id": 7,
+      "userId": 6,
+      "title": "The Future of Web Dev",
+      "body": "Predictions for where web development is heading in the next 5 years.",
+      "likes": 12
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "title": "Database Normalization",
+      "body": "Why normalizing your database schema is crucial for data integrity.",
+      "likes": 5
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "title": "Debugging 101",
+      "body": "Tips and tricks for debugging your code effectively using Chrome DevTools.",
+      "likes": 18
+    },
+    {
+      "id": 10,
+      "userId": 9,
+      "title": "REST API Design",
+      "body": "Best practices for designing a clean and usable RESTful API.",
+      "likes": 22
+    },
+    {
+      "id": 11,
+      "userId": 10,
+      "title": "Introduction to TypeScript",
+      "body": "Why you should switch to TypeScript for your next large project.",
+      "likes": 35
+    },
+    {
+      "id": 12,
+      "userId": 11,
+      "title": "Deploying with Docker",
+      "body": "Containerizing your applications for consistent deployment environments.",
+      "likes": 20
+    },
+    {
+      "id": 13,
+      "userId": 12,
+      "title": "Web Accessibility (A11y)",
+      "body": "Making the web accessible to everyone is not just nice, it is necessary.",
+      "likes": 50
+    },
+    {
+      "id": 14,
+      "userId": 13,
+      "title": "GraphQL Basics",
+      "body": "Fetching exactly the data you need with GraphQL queries.",
+      "likes": 28
+    },
+    {
+      "id": 15,
+      "userId": 1,
+      "title": "State Management",
+      "body": "Managing state in complex applications using Redux or Context API.",
+      "likes": 33
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "comment": "This really cleared things up for me, thanks!"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "comment": "Great explanation, but could you add more examples?"
+    },
+    { "id": 3, "postId": 2, "userId": 4, "comment": "I agree, JS is amazing." },
+    {
+      "id": 4,
+      "postId": 3,
+      "userId": 5,
+      "comment": "Callback hell is the worst. Promises saved my life."
+    },
+    {
+      "id": 5,
+      "postId": 4,
+      "userId": 6,
+      "comment": "I prefer Svelte over both of them."
+    },
+    {
+      "id": 6,
+      "postId": 5,
+      "userId": 7,
+      "comment": "Flexbox is still better for 1D layouts though."
+    },
+    {
+      "id": 7,
+      "postId": 6,
+      "userId": 1,
+      "comment": "Thanks for the tips on clustering!"
+    },
+    {
+      "id": 8,
+      "postId": 7,
+      "userId": 8,
+      "comment": "WebAssembly is going to be huge."
+    },
+    {
+      "id": 9,
+      "postId": 8,
+      "userId": 9,
+      "comment": "Sometimes denormalization is needed for read performance."
+    },
+    {
+      "id": 10,
+      "postId": 9,
+      "userId": 10,
+      "comment": "Console.log is my best friend."
+    },
+    {
+      "id": 11,
+      "postId": 10,
+      "userId": 11,
+      "comment": "HATEOAS is too complex for simple APIs."
+    },
+    {
+      "id": 12,
+      "postId": 11,
+      "userId": 12,
+      "comment": "Types saved me so many runtime errors."
+    },
+    {
+      "id": 13,
+      "postId": 12,
+      "userId": 13,
+      "comment": "Docker compose makes local dev so easy."
+    },
+    {
+      "id": 14,
+      "postId": 13,
+      "userId": 14,
+      "comment": "Semantic HTML is the first step."
+    },
+    {
+      "id": 15,
+      "postId": 15,
+      "userId": 2,
+      "comment": "Context API is enough for small apps."
+    }
+  ]
+}
